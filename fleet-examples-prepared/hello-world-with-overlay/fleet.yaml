@@ -1,8 +1,8 @@
 targetCustomizations:
-  - name: west
+  - name: temp
     yaml:
       overlays:
         - green-color
     clusterSelector:
       matchLabels:
-        location: west
+        sensor: temp
