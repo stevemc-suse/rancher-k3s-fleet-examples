@@ -1,0 +1,8 @@
+targetCustomizations:
+  - name: temp
+    yaml:
+      overlays:
+        - green-color
+    clusterSelector:
+      matchLabels:
+        sensor: light
