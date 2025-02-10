@@ -5,4 +5,4 @@ targetCustomizations:
         - green-color
     clusterSelector:
       matchLabels:
-        env: dev
+        store: 999
